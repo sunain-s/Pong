@@ -20,11 +20,13 @@ def highscore_func(username, player_score):
     display_user = []
     display_score = []
     with open('files\scores.txt', 'r') as file:
+        next(file)
         for line in file:
             line = line.rstrip('\n').split(';')
             users.append(line[0])
             scores.append(int(line[1]))
             top_ten = sorted(scores, reverse = True)
+
         
         # creating top_ten list
         if len(scores) < 10:
