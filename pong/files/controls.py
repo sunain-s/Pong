@@ -42,7 +42,7 @@ def main():
 # general setup and window
 pygame.init()
 clock = pygame.time.Clock()
-pygame.display.set_caption('Pong | by Asianguy_123')
+pygame.display.set_caption('Pong | Sunain Syed')
 screen_width = 1270
 screen_height = 648
 screen = pygame.display.set_mode((screen_width, screen_height))
