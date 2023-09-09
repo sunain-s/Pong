@@ -25,7 +25,7 @@ def main_menu():
 
         # displays text
         draw_text('PONG', title_font, text_color, screen, screen_width/2, 50)
-        draw_text('by Asianguy_123', name_font, text_color, screen, screen_width/2, 100)
+        draw_text('by Sunain Syed', name_font, text_color, screen, screen_width/2, 100)
 
         # gets mouse position and creates buttons
         mx, my = pygame.mouse.get_pos()
@@ -60,7 +60,7 @@ def main_menu():
 # general setup and window
 pygame.init()
 clock = pygame.time.Clock()
-pygame.display.set_caption('Pong | by Asianguy_123')
+pygame.display.set_caption('Pong | Sunain Syed')
 screen_width = 1270
 screen_height = 648
 screen = pygame.display.set_mode((screen_width, screen_height))
