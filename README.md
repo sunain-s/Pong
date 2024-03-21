@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=Qf3-aDXG8q4
 
 I then expanded on this to push my boundaries.
 
-# Features
+## Features
 - Menu screens
   - hit 'esc' key to return to previous menu screen or quit mid-game
 - Singleplayer against AI
@@ -23,12 +23,12 @@ I then expanded on this to push my boundaries.
   - displays top 10
 - Special win screen
 
-# How to play
+## How to play
 
 To run download the pong folder, then run 'pong.exe' - warning, may be flagged up by firewall or windows defender etc. , don't worry it is perfectly safe, check the code if you want.
 Alternatively, if python is already installed to your system, run 'menu.py'.
 
-# What I learnt
+## What I learnt
 
 - using Pygame to create GUIs
 - using classes and OOP
